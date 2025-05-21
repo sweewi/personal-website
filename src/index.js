@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './assets/css/styles.css';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
@@ -13,7 +13,7 @@ import Projects from './pages/Projects';
 
 const App = () => {
     return (
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router>
             <div className="app-container">
                 <Header />
                 <Navigation />
