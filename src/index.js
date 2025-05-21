@@ -5,6 +5,7 @@ import './assets/css/styles.css';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
+import DarkModeToggle from './components/DarkModeToggle';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -25,6 +26,7 @@ const App = () => {
                     </Routes>
                 </main>
                 <Footer />
+                <DarkModeToggle />
             </div>
         </Router>
     );
