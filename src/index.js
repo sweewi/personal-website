@@ -10,6 +10,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
+import AIChat from './pages/AIChat';
+import CustomAIChat from './pages/CustomAIChat';
 
 const App = () => {
     return (
@@ -23,6 +25,8 @@ const App = () => {
                         <Route path="/about" element={<About />} />
                         <Route path="/projects" element={<Projects />} />
                         <Route path="/contact" element={<Contact />} />
+                        <Route path="/ai-chat" element={<AIChat />} />
+                        <Route path="/custom-ai" element={<CustomAIChat />} />
                     </Routes>
                 </main>
                 <Footer />
