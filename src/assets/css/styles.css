@@ -10,13 +10,13 @@ This file contains the CSS styles for the website, defining the layout and appea
 }
 
 :root {
-    --primary-color: #4a6fa5;
+    --primary-color: #861109;
     --secondary-color: #f9a826;
-    --bg-color: #f8f9fa;
-    --text-color: #333333;
-    --light-text: #666666;
-    --dark-bg: #2d3748;
-    --card-bg: #ffffff;
+    --bg-color: #696868;
+    --text-color: #000000;
+    --light-text: #3d3c3c;
+    --dark-bg: #482d2d;
+    --card-bg: #a8a6a6;
     --border-radius: 8px;
     --box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
